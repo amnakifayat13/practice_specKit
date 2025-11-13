@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- **TDD:** Are tests written first?
+- **Python 3.12+ & Type Hints:** Is the code using Python 3.12+ with type hints?
+- **Clean Code:** Is the code clean and readable?
+- **ADRs:** Are important decisions documented with ADRs?
+- **OOP Principles:** Does the code follow SOLID, DRY, KISS?
+- **Tech Stack:** Does the implementation adhere to the defined technical stack?
+- **Quality Requirements:** Does the code meet the quality requirements (testing, coverage)?
 
 ## Project Structure
 
