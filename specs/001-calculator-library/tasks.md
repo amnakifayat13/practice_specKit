@@ -11,11 +11,11 @@ description: "Task list for Calculator Library implementation"
 
 **Purpose**: Project initialization and basic structure.
 
-- [ ] T001 Create directory `src/calculator`.
-- [ ] T002 Create directory `tests/unit`.
-- [ ] T003 Create empty file `src/calculator/__init__.py`.
-- [ ] T004 Create file `src/calculator/library.py` with an empty `Calculator` class.
-- [ ] T005 Create file `tests/unit/test_calculator.py` with initial imports and an empty `TestCalculator` class.
+- [x] T001 Create directory `src/calculator`.
+- [x] T002 Create directory `tests/unit`.
+- [x] T003 Create empty file `src/calculator/__init__.py`.
+- [x] T004 Create file `src/calculator/library.py` with an empty `Calculator` class.
+- [x] T005 Create file `tests/unit/test_calculator.py` with initial imports and an empty `TestCalculator` class.
 
 ---
 
@@ -27,14 +27,14 @@ description: "Task list for Calculator Library implementation"
 
 ### Implementation for User Story 1
 
-- [ ] T006 [US1] Write a failing test for `add()` in `tests/unit/test_calculator.py`.
-- [ ] T007 [US1] Implement the `add()` method in `src/calculator/library.py` to pass the test.
-- [ ] T008 [US1] Write a failing test for `subtract()` in `tests/unit/test_calculator.py`.
-- [ ] T009 [US1] Implement the `subtract()` method in `src/calculator/library.py` to pass the test.
-- [ ] T010 [US1] Write a failing test for `multiply()` in `tests/unit/test_calculator.py`.
-- [ ] T011 [US1] Implement the `multiply()` method in `src/calculator/library.py` to pass the test.
-- [ ] T012 [US1] Write a failing test for `divide()` in `tests/unit/test_calculator.py`.
-- [ ] T013 [US1] Implement the `divide()` method in `src/calculator/library.py` to pass the test.
+- [x] T006 [US1] Write a failing test for `add()` in `tests/unit/test_calculator.py`.
+- [x] T007 [US1] Implement the `add()` method in `src/calculator/library.py` to pass the test.
+- [x] T008 [US1] Write a failing test for `subtract()` in `tests/unit/test_calculator.py`.
+- [x] T009 [US1] Implement the `subtract()` method in `src/calculator/library.py` to pass the test.
+- [x] T010 [US1] Write a failing test for `multiply()` in `tests/unit/test_calculator.py`.
+- [x] T011 [US1] Implement the `multiply()` method in `src/calculator/library.py` to pass the test.
+- [x] T012 [US1] Write a failing test for `divide()` in `tests/unit/test_calculator.py`.
+- [x] T013 [US1] Implement the `divide()` method in `src/calculator/library.py` to pass the test.
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently.
 
@@ -48,8 +48,8 @@ description: "Task list for Calculator Library implementation"
 
 ### Implementation for User Story 2
 
-- [ ] T014 [US2] Write a failing test for `exponentiate()` in `tests/unit/test_calculator.py`.
-- [ ] T015 [US2] Implement the `exponentiate()` method in `src/calculator/library.py` to pass the test.
+- [x] T014 [US2] Write a failing test for `exponentiate()` in `tests/unit/test_calculator.py`.
+- [x] T015 [US2] Implement the `exponentiate()` method in `src/calculator/library.py` to pass the test.
 
 **Checkpoint**: At this point, User Stories 1 AND 2 should both work independently.
 
@@ -63,10 +63,10 @@ description: "Task list for Calculator Library implementation"
 
 ### Implementation for User Story 3
 
-- [ ] T016 [US3] Write a test for division by zero that expects a `ValueError` in `tests/unit/test_calculator.py`.
-- [ ] T017 [US3] Add the division-by-zero check in the `divide()` method in `src/calculator/library.py` to pass the test.
-- [ ] T018 [US3] Write a test for non-numeric input for the `add()` method that expects a `TypeError` in `tests/unit/test_calculator.py`.
-- [ ] T019 [US3] Add type checking to all public methods in `src/calculator/library.py` to pass the test and ensure robustness.
+- [x] T016 [US3] Write a test for division by zero that expects a `ValueError` in `tests/unit/test_calculator.py`.
+- [x] T017 [US3] Add the division-by-zero check in the `divide()` method in `src/calculator/library.py` to pass the test.
+- [x] T018 [US3] Write a test for non-numeric input for the `add()` method that expects a `TypeError` in `tests/unit/test_calculator.py`.
+- [x] T019 [US3] Add type checking to all public methods in `src/calculator/library.py` to pass the test and ensure robustness.
 
 **Checkpoint**: All user stories should now be independently functional.
 
@@ -76,9 +76,9 @@ description: "Task list for Calculator Library implementation"
 
 **Purpose**: Improvements that affect multiple user stories.
 
-- [ ] T020 Add comprehensive docstrings to the `Calculator` class and all its methods in `src/calculator/library.py`.
-- [ ] T021 Run all tests one final time to ensure full coverage and correctness.
-- [ ] T022 Validate the examples in `specs/001-calculator-library/quickstart.md` work as expected.
+- [x] T020 Add comprehensive docstrings to the `Calculator` class and all its methods in `src/calculator/library.py`.
+- [x] T021 Run all tests one final time to ensure full coverage and correctness.
+- [x] T022 Validate the examples in `specs/001-calculator-library/quickstart.md` work as expected.
 
 ---
 
